@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main-visual {
+  width: 960px;
+  height: 1400px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.usumidori-hidari {
+  width: 230px;
+  height: 1400px;
+  background-color: #99ff99;
+}
+
+.usumidori-migi {
+  width: 230px;
+  height: 1400px;
+  background-color: #99ff99;
+}
+
+.midori {
+  width: 500px;
+  height: 1400px;
+  background-color: #00ff00;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #0000ff;
+}

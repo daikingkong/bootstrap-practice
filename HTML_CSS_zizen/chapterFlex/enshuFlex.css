@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header-container {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: hotpink;
+}
+
+
+
+.header-item {
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+  background-color: pink;
+}
+
+
+.header-container > :first-child {
+  margin-right: auto;
+}
+
+.main-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.sideber-left {
+  width: 300px;
+  background-color: yellowgreen;
+}
+
+.sideber-right-container {
+  max-width: 700px;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+}
+
+
+
+.right-item {
+  margin: 10px;
+  flex-basis: 200px;
+  height: 130px;
+  background-color: yellow;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: blue;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+.footer-item {
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  background-color: white;
+  margin: 10px;
+}
+
+
+/* widthは無くて良かった。(親のブロック要素は幅いっぱいに広がるから）*/
+/*　headee > div でもよかった。*/
+　/*　headee > :first-child でもよかった。*/
+ /* mainの背景色はあってもなくても良かった。(問題のガイドは黒かったので適用しただけ。）*/
+　　/*　.content > div でもよかった。*/
+　　/*　justify-conteot:center;でよかった。widthは無くて良かった。(親のブロック要素は幅いっぱいに広がるから）*/
+　/*.footer > div でもよかった。 flex-basisは、widthでも可*/

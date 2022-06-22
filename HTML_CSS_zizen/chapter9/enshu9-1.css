@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+}
+
+.position {
+  font-size: 32px;
+  position: absolute;
+  right: 40px;
+  top: 100px;
+}
+
+/*正解は
+
+
+.fab {
+  font-size: 32px;
+}
+
+.position {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+
+解説
+
+.fabには、アイコンに関してのサイズなどの宣言を
+記述する。
+
+.positionには、今回はアイコンの位置に関しての宣言を
+記述する。
+ｓ
+*/
